@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Pack einreichen – allumeriapacks</title>
+<meta name="description" content="Reiche dein eigenes Sprach-, Textur- oder anderes Paket für Allumeria bei allumeriapacks ein — kostenlos und offen für die Community.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://allumeriapacks.github.io/submit.html">
+<meta name="theme-color" content="#2a1a0e">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="allumeriapacks">
+<meta property="og:title" content="Pack einreichen – allumeriapacks">
+<meta property="og:description" content="Reiche dein eigenes Sprach-, Textur- oder anderes Paket für Allumeria bei allumeriapacks ein.">
+<meta property="og:url" content="https://allumeriapacks.github.io/submit.html">
+<meta property="og:image" content="https://allumeriapacks.github.io/assets/img/og-image.png">
+
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/favicon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@400;600;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="disclaimer-banner" id="disclaimer-banner">
+  <div class="disclaimer-banner__inner">
+    <span data-i18n-html="banner.text"></span>
+    <button class="dismiss" type="button" data-i18n-aria="banner.dismiss">&times;</button>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="brand" href="index.html">
+      <img class="brand__flame" src="assets/img/favicon.png" alt="" width="34" height="34">
+      <span>ALLUMERIA<br><small>PACKS</small></span>
+    </a>
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menü öffnen">☰</button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="index.html#catalog" data-i18n="nav.catalog">Packs</a></li>
+      <li><a href="submit.html" data-i18n="nav.submit">Pack einreichen</a></li>
+      <li><a href="index.html#community" data-i18n="nav.community">Community</a></li>
+      <li><a href="https://github.com/allumeriapacks/allumeriapacks.github.io" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a></li>
+    </ul>
+    <div class="nav__actions">
+      <div class="lang-switch" id="lang-switch">
+        <button class="lang-switch__btn" id="lang-current" type="button" aria-haspopup="true">DE</button>
+        <div class="lang-switch__menu" id="lang-menu" role="menu"></div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section style="padding-top:56px;">
+  <div class="section__head">
+    <span class="eyebrow" data-i18n="submit.eyebrow">Mitmachen</span>
+    <h2 data-i18n="submit.title">Eigenes Pack einreichen</h2>
+    <p class="hero__subtitle" data-i18n="submit.intro" style="margin-top:10px;">
+      Du hast ein Sprach-, Textur- oder anderes Paket für Allumeria erstellt? Trag es unten ein — der Button öffnet ein vorausgefülltes GitHub-Issue.
+    </p>
+  </div>
+
+  <form class="submit-panel" id="submit-form">
+    <div class="form-field">
+      <label for="pack-name" data-i18n="submit.name_label">Name des Packs</label>
+      <input type="text" id="pack-name" name="pack-name" required data-i18n-placeholder="submit.name_placeholder" placeholder="z. B. Nordisches Texturepaket">
+    </div>
+
+    <div class="form-field">
+      <label for="pack-type" data-i18n="submit.type_label">Art des Packs</label>
+      <select id="pack-type" name="pack-type" required>
+        <option value="language" data-i18n="pack.type_language">Sprachpaket</option>
+        <option value="texture" data-i18n="pack.type_texture">Texturepaket</option>
+        <option value="other" data-i18n="pack.type_other">Sonstiges</option>
+      </select>
+    </div>
+
+    <div class="form-field">
+      <label for="author" data-i18n="submit.author_label">Dein Name / Gamertag</label>
+      <input type="text" id="author" name="author" required>
+    </div>
+
+    <div class="form-field">
+      <label for="link" data-i18n="submit.link_label">Link zum Download (extern gehostet)</label>
+      <input type="url" id="link" name="link" required data-i18n-placeholder="submit.link_placeholder" placeholder="https://…">
+    </div>
+
+    <div class="form-field">
+      <label for="description" data-i18n="submit.description_label">Kurzbeschreibung</label>
+      <textarea id="description" name="description" required data-i18n-placeholder="submit.description_placeholder" placeholder="Was macht dein Pack besonders?"></textarea>
+    </div>
+
+    <div class="form-field">
+      <label for="languages" data-i18n="submit.language_label">Sprache(n) (bei Sprachpaketen)</label>
+      <input type="text" id="languages" name="languages" data-i18n-placeholder="submit.language_placeholder" placeholder="z. B. Französisch">
+    </div>
+
+    <div class="form-field form-field--checkbox">
+      <input type="checkbox" id="license" name="license" required>
+      <label for="license" data-i18n="submit.license_label">Ich bestätige, dass ich die Rechte an diesem Inhalt besitze oder zur Veröffentlichung berechtigt bin und dass er nicht gegen geltendes Recht verstößt.</label>
+    </div>
+
+    <button type="submit" class="btn btn--primary btn--block" data-i18n="submit.submit_btn">Issue auf GitHub öffnen</button>
+
+    <p class="form-note" data-i18n="submit.note">
+      Es öffnet sich ein neuer Tab mit einem vorausgefüllten GitHub-Issue. Ein GitHub-Account wird nur zum Absenden benötigt.
+    </p>
+
+    <div class="form-alt">
+      <span data-i18n="submit.alt_link">Lieber direkt das Formular auf GitHub ausfüllen?</span>
+      <br>
+      <a href="https://github.com/allumeriapacks/allumeriapacks.github.io/issues/new?template=submit-pack.yml&labels=pack-submission" target="_blank" rel="noopener" data-i18n="submit.alt_link_cta">Issue-Formular öffnen</a>
+    </div>
+  </form>
+</section>
+
+<footer class="site-footer">
+  <div class="site-footer__brand">ALLUMERIA PACKS</div>
+  <p class="site-footer__tagline" data-i18n="footer.tagline">Made by Fans, for Fans.</p>
+  <div class="site-footer__socials">
+    <a href="https://github.com/JJETHEGAMER" target="_blank" rel="noopener">JJETHEGAMER</a>
+    <a href="https://instagram.com/justin_jje" target="_blank" rel="noopener">justin_jje</a>
+    <a href="https://github.com/allumeriapacks/allumeriapacks.github.io" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <p class="site-footer__disclaimer" data-i18n="footer.disclaimer">
+    allumeriapacks ist ein fanmade, inoffizielles Projekt und steht in keiner Verbindung zu den offiziellen Allumeria-Entwicklern oder -Rechteinhabern.
+  </p>
+  <p class="site-footer__rights">© <span id="footer-year">2026</span> allumeriapacks</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

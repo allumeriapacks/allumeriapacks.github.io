@@ -1,0 +1,98 @@
+{
+  "_meta": { "code": "pl", "label": "Polski", "flag": "🇵🇱" },
+  "meta": {
+    "title": "allumeriapacks – Miejsce zbiorcze paczek językowych i teksturowych do Allumeria",
+    "description": "Nieoficjalne, fanowskie miejsce zbiorcze dla Allumeria: paczki językowe, teksturowe i inne od społeczności. Darmowe, przeszukiwalne i otwarte na zgłoszenia."
+  },
+  "banner": {
+    "text": "<strong>Projekt fanowski i nieoficjalny</strong> — allumeriapacks nie jest powiązane z oficjalnymi twórcami Allumeria.",
+    "dismiss": "Zamknij"
+  },
+  "nav": {
+    "home": "Start",
+    "catalog": "Paczki",
+    "submit": "Zgłoś paczkę",
+    "community": "Społeczność",
+    "github": "GitHub"
+  },
+  "hero": {
+    "eyebrow": "Katalog społeczności",
+    "title": "ALLUMERIA PACKS",
+    "subtitle": "Nieoficjalne miejsce zbiorcze paczek językowych i teksturowych do Allumeria — zebrane przez fanów, przeglądane przez fanów.",
+    "cta_primary": "Przeglądaj paczki",
+    "cta_secondary": "Zgłoś swoją paczkę"
+  },
+  "catalog": {
+    "eyebrow": "Katalog",
+    "title": "Dostępne paczki",
+    "subtitle": "Pliki są hostowane zewnętrznie — allumeriapacks jedynie do nich prowadzi. Dotyczy to również własnych projektów właściciela strony."
+  },
+  "filter": {
+    "all": "Wszystkie",
+    "language": "Paczki językowe",
+    "texture": "Paczki tekstur",
+    "other": "Inne"
+  },
+  "pack": {
+    "by": "od",
+    "official_badge": "Własny projekt tej strony",
+    "download": "Pobierz",
+    "info": "Więcej informacji",
+    "external_note": "Hostowane zewnętrznie",
+    "type_language": "Paczka językowa",
+    "type_texture": "Paczka tekstur",
+    "type_other": "Inne",
+    "status_demo": "Demo / niekompletna",
+    "status_wip": "W trakcie tworzenia",
+    "status_complete": "Kompletna",
+    "status_partial": "Częściowo dostępna"
+  },
+  "empty": {
+    "title": "Brak paczek w tej kategorii",
+    "text": "Zgłoś pierwszą paczkę w tej kategorii!"
+  },
+  "install": {
+    "eyebrow": "Jak to działa",
+    "title": "Jak zainstalować paczkę",
+    "step1_title": "Pobierz paczkę",
+    "step1_text": "Kliknij „Pobierz” — link prowadzi do oryginalnego źródła danej paczki.",
+    "step2_title": "Umieść w odpowiednim folderze",
+    "step2_text": "Większość paczek językowych i tekstur trafia do folderu <code>resourcepacks/</code> Twojej gry.",
+    "step3_title": "Włącz w grze",
+    "step3_text": "Otwórz ustawienia paczek zasobów i włącz ją. Gotowe — miłej zabawy!",
+    "note": "Jeśli paczka zawiera własną instrukcję, zawsze stosuj się do niej zamiast tego skrótu."
+  },
+  "submit": {
+    "eyebrow": "Dołącz do nas",
+    "title": "Zgłoś swoją paczkę",
+    "intro": "Stworzyłeś paczkę językową, teksturową lub inną dla Allumeria? Wypełnij dane poniżej — przycisk otworzy wstępnie wypełnione zgłoszenie (issue) na GitHubie do naszej weryfikacji i dodania do katalogu.",
+    "name_label": "Nazwa paczki",
+    "name_placeholder": "np. Nordycka paczka tekstur",
+    "type_label": "Typ paczki",
+    "author_label": "Twoje imię / gamertag",
+    "link_label": "Link do pobrania (hostowany zewnętrznie)",
+    "link_placeholder": "https://…",
+    "description_label": "Krótki opis",
+    "description_placeholder": "Co wyróżnia Twoją paczkę?",
+    "language_label": "Język(i) (dla paczek językowych)",
+    "language_placeholder": "np. francuski",
+    "license_label": "Potwierdzam, że posiadam prawa do tej treści lub jestem upoważniony do jej publikacji i że nie narusza ona obowiązującego prawa.",
+    "submit_btn": "Otwórz zgłoszenie na GitHubie",
+    "note": "Otworzy się nowa karta z wstępnie wypełnionym zgłoszeniem na GitHubie. Konto GitHub jest potrzebne tylko do wysłania, nie do wypełnienia formularza.",
+    "alt_link": "Wolisz wypełnić formularz bezpośrednio na GitHubie?",
+    "alt_link_cta": "Otwórz formularz zgłoszenia"
+  },
+  "community": {
+    "eyebrow": "Kontakt",
+    "title": "Społeczność i kontakt",
+    "text": "Znalazłeś błąd, masz pytanie lub chcesz pomóc? Napisz do nas przez kanały poniżej.",
+    "gamertag_label": "Gamertag",
+    "social_label": "Social"
+  },
+  "footer": {
+    "tagline": "Made by Fans, for Fans.",
+    "disclaimer": "allumeriapacks to projekt fanowski i nieoficjalny, niepowiązany z oficjalnymi twórcami ani posiadaczami praw do Allumeria. Zgłoszone paczki są jedynie linkowane i pozostają odpowiedzialnością ich twórców. Wszystkie znaki towarowe i nazwy produktów należą do ich właścicieli.",
+    "rights": "Wszystkie wymienione pliki są bezpłatne.",
+    "credit": "Paczka tekstur Chronicleria od JJE"
+  }
+}

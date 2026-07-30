@@ -1,0 +1,49 @@
+{
+  "_readme": "Neues Pack hinzufügen: Objekt unten in 'packs' einfügen. id = eindeutiger slug (kleinschreibung-mit-bindestrichen). Wird per GitHub Issue vorgeschlagen (siehe /submit.html) und nach Prüfung hier ergänzt.",
+  "packs": [
+    {
+      "id": "de-sprachpaket",
+      "name": "Deutsches Sprachpaket",
+      "type": "language",
+      "author": "JJE",
+      "authorHandle": "JJETHEGAMER",
+      "authorLink": "https://github.com/JJETHEGAMER",
+      "official": true,
+      "status": "demo",
+      "version": "1.0",
+      "updated": "2026-07-25",
+      "languages": ["de"],
+      "description": {
+        "de": "Alle Items, Menüs & Quests komplett übersetzt. Noch nicht jeder Text im Spiel ist enthalten — diese Demo wird laufend erweitert.",
+        "en": "All items, menus & quests fully translated. Not every in-game string is covered yet — this demo is updated regularly."
+      },
+      "links": {
+        "download": "REPLACE_WITH_RELEASE_URL",
+        "info": ""
+      },
+      "tags": ["sprache", "deutsch", "übersetzung"]
+    },
+    {
+      "id": "chronicleria",
+      "name": "Chronicleria",
+      "type": "texture",
+      "author": "JJE",
+      "authorHandle": "JJETHEGAMER",
+      "authorLink": "https://github.com/JJETHEGAMER",
+      "official": true,
+      "status": "demo",
+      "version": "0.1",
+      "updated": "2026-07-25",
+      "languages": [],
+      "description": {
+        "de": "Voxelbasiertes HD-Texturepaket „Chronicleria“ von JJE. Aktuell sind einige Assets ersetzbar über den res-Ordner, weitere folgen mit jedem Update.",
+        "en": "Voxel-based HD texture pack \"Chronicleria\" by JJE. Some assets can currently be swapped via the res folder, more arrive with every update."
+      },
+      "links": {
+        "download": "REPLACE_WITH_RELEASE_URL",
+        "info": ""
+      },
+      "tags": ["textur", "voxel", "hd"]
+    }
+  ]
+}

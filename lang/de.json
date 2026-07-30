@@ -1,0 +1,98 @@
+{
+  "_meta": { "code": "de", "label": "Deutsch", "flag": "🇩🇪" },
+  "meta": {
+    "title": "allumeriapacks – Sammelstelle für Sprach- & Texturepakete zu Allumeria",
+    "description": "Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete & mehr von der Community. Kostenlos, durchsuchbar und offen für eigene Einreichungen."
+  },
+  "banner": {
+    "text": "<strong>Fanmade &amp; inoffiziell</strong> — allumeriapacks steht in keiner Verbindung zu den offiziellen Allumeria-Entwicklern.",
+    "dismiss": "Schließen"
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Packs",
+    "submit": "Pack einreichen",
+    "community": "Community",
+    "github": "GitHub"
+  },
+  "hero": {
+    "eyebrow": "Community-Katalog",
+    "title": "ALLUMERIA PACKS",
+    "subtitle": "Die inoffizielle Sammelstelle für Sprach- und Texturepakete zu Allumeria — von Fans zusammengetragen, für Fans durchsuchbar.",
+    "cta_primary": "Packs durchsuchen",
+    "cta_secondary": "Eigenes Pack einreichen"
+  },
+  "catalog": {
+    "eyebrow": "Katalog",
+    "title": "Verfügbare Packs",
+    "subtitle": "Downloads werden extern gehostet — allumeriapacks verlinkt nur dorthin. Ausnahme: eigene Projekte des Seitenbetreibers, ebenfalls extern verlinkt."
+  },
+  "filter": {
+    "all": "Alle",
+    "language": "Sprachpakete",
+    "texture": "Texturepakete",
+    "other": "Sonstiges"
+  },
+  "pack": {
+    "by": "von",
+    "official_badge": "Eigenes Projekt dieser Seite",
+    "download": "Zum Download",
+    "info": "Mehr Infos",
+    "external_note": "Wird extern gehostet",
+    "type_language": "Sprachpaket",
+    "type_texture": "Texturepaket",
+    "type_other": "Sonstiges",
+    "status_demo": "Demo / unvollständig",
+    "status_wip": "In Arbeit",
+    "status_complete": "Vollständig",
+    "status_partial": "Teilweise verfügbar"
+  },
+  "empty": {
+    "title": "Noch keine Packs in dieser Kategorie",
+    "text": "Sei die erste Person, die hier ein Pack einreicht!"
+  },
+  "install": {
+    "eyebrow": "So geht's",
+    "title": "So installierst du ein Paket",
+    "step1_title": "Pack herunterladen",
+    "step1_text": "Klick auf „Zum Download“ — der Link führt zur Originalquelle des jeweiligen Packs.",
+    "step2_title": "In den richtigen Ordner legen",
+    "step2_text": "Die meisten Sprach- und Texturepakete gehören in den <code>resourcepacks/</code>-Ordner deines Spiels.",
+    "step3_title": "Im Spiel aktivieren",
+    "step3_text": "Öffne die Paket-Einstellungen und aktiviere das Pack. Fertig — viel Spaß beim Erkunden!",
+    "note": "Bringt ein Pack eine eigene Anleitung mit? Diese hat immer Vorrang vor der Kurzanleitung hier."
+  },
+  "submit": {
+    "eyebrow": "Mitmachen",
+    "title": "Eigenes Pack einreichen",
+    "intro": "Du hast ein Sprach-, Textur- oder anderes Paket für Allumeria erstellt? Trag es unten ein — der Button öffnet ein vorausgefülltes GitHub-Issue, das wir prüfen und danach in den Katalog aufnehmen.",
+    "name_label": "Name des Packs",
+    "name_placeholder": "z. B. Nordisches Texturepaket",
+    "type_label": "Art des Packs",
+    "author_label": "Dein Name / Gamertag",
+    "link_label": "Link zum Download (extern gehostet)",
+    "link_placeholder": "https://…",
+    "description_label": "Kurzbeschreibung",
+    "description_placeholder": "Was macht dein Pack besonders?",
+    "language_label": "Sprache(n) (bei Sprachpaketen)",
+    "language_placeholder": "z. B. Französisch",
+    "license_label": "Ich bestätige, dass ich die Rechte an diesem Inhalt besitze oder zur Veröffentlichung berechtigt bin und dass er nicht gegen geltendes Recht verstößt.",
+    "submit_btn": "Issue auf GitHub öffnen",
+    "note": "Es öffnet sich ein neuer Tab mit einem vorausgefüllten GitHub-Issue. Ein GitHub-Account wird nur zum Absenden benötigt — nicht zum Ausfüllen.",
+    "alt_link": "Lieber direkt das Formular auf GitHub ausfüllen?",
+    "alt_link_cta": "Issue-Formular öffnen"
+  },
+  "community": {
+    "eyebrow": "Kontakt",
+    "title": "Community & Kontakt",
+    "text": "Fragen, Bugs gefunden oder Lust mitzuhelfen? Meld dich gerne über die Kanäle unten.",
+    "gamertag_label": "Gamertag",
+    "social_label": "Social"
+  },
+  "footer": {
+    "tagline": "Made by Fans, for Fans.",
+    "disclaimer": "allumeriapacks ist ein fanmade, inoffizielles Projekt und steht in keiner Verbindung zu den offiziellen Allumeria-Entwicklern oder -Rechteinhabern. Eingereichte Packs werden nur verlinkt und liegen in der Verantwortung ihrer jeweiligen Ersteller. Alle Marken- und Produktnamen sind Eigentum ihrer jeweiligen Inhaber.",
+    "rights": "Alle gelisteten Downloads sind kostenlos.",
+    "credit": "Chronicleria Texturepaket von JJE"
+  }
+}
