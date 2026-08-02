@@ -79,7 +79,7 @@
     "step1_title": "Pack herunterladen",
     "step1_text": "Öffne die Produktseite des Packs und klick dort auf „Zum Download“ — der Link führt zur Originalquelle.",
     "step2_title": "In den richtigen Ordner legen",
-    "step2_text": "Die meisten Sprach- und Texturepakete gehören in den <code>resourcepacks/</code>-Ordner deines Spiels, Mods in den <code>mods/</code>-Ordner.",
+    "step2_text": "Die meisten Sprach- und Texturepakete gehören in den <code>assetpacks/</code>-Ordner deines Spiels.",
     "step3_title": "Im Spiel aktivieren",
     "step3_text": "Öffne die Paket-Einstellungen und aktiviere das Pack. Fertig — viel Spaß beim Erkunden!",
     "note": "Bringt ein Pack eine eigene Anleitung mit? Diese hat immer Vorrang vor der Kurzanleitung hier."
