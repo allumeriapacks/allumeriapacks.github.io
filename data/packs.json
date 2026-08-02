@@ -1,5 +1,5 @@
 {
-  "_readme": "Neues Pack hinzufügen: Objekt unten in 'packs' einfügen. id = eindeutiger slug (kleinschreibung-mit-bindestrichen). Wird per GitHub Issue vorgeschlagen (siehe /submit.html) und nach Prüfung hier ergänzt.",
+  "_readme": "Neues Pack hinzufügen: Objekt unten in 'packs' einfügen. id = eindeutiger slug (kleinschreibung-mit-bindestrichen), wird auch als pack.html?id=<id> verwendet. tags IMMER auf Englisch (feste Taxonomie, wird nicht übersetzt). images.logo/gallery = nur Bild-URLs (keine Datei-Uploads). descriptionShort max. ~160 Zeichen, descriptionLong max. ~1000 Zeichen. Wird per GitHub Issue vorgeschlagen (siehe /submit.html) und nach Prüfung hier ergänzt.",
   "packs": [
     {
       "id": "de-sprachpaket",
@@ -8,20 +8,30 @@
       "author": "JJE",
       "authorHandle": "JJETHEGAMER",
       "authorLink": "https://github.com/JJETHEGAMER",
+      "creator": "",
+      "creatorLink": "",
       "official": true,
       "status": "demo",
       "version": "1.0",
       "updated": "2026-07-25",
       "languages": ["de"],
-      "description": {
-        "de": "Alle Items, Menüs & Quests komplett übersetzt. Noch nicht jeder Text im Spiel ist enthalten — diese Demo wird laufend erweitert.",
-        "en": "All items, menus & quests fully translated. Not every in-game string is covered yet — this demo is updated regularly."
+      "descriptionShort": {
+        "de": "Alle Items, Menüs & Quests komplett übersetzt. Diese Demo wird laufend erweitert.",
+        "en": "All items, menus & quests fully translated. This demo is updated regularly."
+      },
+      "descriptionLong": {
+        "de": "Diese Sprachpaket-Demo übersetzt alle Items, Menüs und Quests von Allumeria ins Deutsche. Noch nicht jeder Text im Spiel ist enthalten — fehlende Zeilen fallen automatisch auf Englisch zurück. Das Paket wird mit jeder neuen Allumeria-Version aktualisiert, bis die Übersetzung vollständig ist. Feedback zu Übersetzungsfehlern ist jederzeit willkommen über die Community-Kanäle.",
+        "en": "This language pack demo translates all items, menus, and quests in Allumeria into German. Not every in-game string is covered yet — missing lines automatically fall back to English. The pack is updated with every new Allumeria version until the translation is complete. Feedback on translation errors is always welcome via the community channels."
+      },
+      "images": {
+        "logo": "",
+        "gallery": []
       },
       "links": {
         "download": "REPLACE_WITH_RELEASE_URL",
         "info": ""
       },
-      "tags": ["sprache", "deutsch", "übersetzung"]
+      "tags": ["language", "german", "translation"]
     },
     {
       "id": "chronicleria",
@@ -30,20 +40,30 @@
       "author": "JJE",
       "authorHandle": "JJETHEGAMER",
       "authorLink": "https://github.com/JJETHEGAMER",
+      "creator": "",
+      "creatorLink": "",
       "official": true,
       "status": "demo",
       "version": "0.1",
       "updated": "2026-07-25",
       "languages": [],
-      "description": {
-        "de": "Voxelbasiertes HD-Texturepaket „Chronicleria“ von JJE. Aktuell sind einige Assets ersetzbar über den res-Ordner, weitere folgen mit jedem Update.",
-        "en": "Voxel-based HD texture pack \"Chronicleria\" by JJE. Some assets can currently be swapped via the res folder, more arrive with every update."
+      "descriptionShort": {
+        "de": "Voxelbasiertes HD-Texturepaket von JJE. Aktuell teilweise über den res-Ordner ersetzbar.",
+        "en": "Voxel-based HD texture pack by JJE. Currently partially swappable via the res folder."
+      },
+      "descriptionLong": {
+        "de": "Chronicleria ist ein voxelbasiertes HD-Texturepaket für Allumeria von JJE. Es setzt auf eine ruhige, warme Farbgebung mit erhöhtem Detailgrad gegenüber den Standardtexturen. In dieser Demo-Version sind bereits einige Assets enthalten, weitere Bereiche lassen sich aktuell über den mitgelieferten res-Ordner mit eigenen Texturen ersetzen. Mit jedem Update kommen mehr fertige Assets hinzu, bis das Paket vollständig ist.",
+        "en": "Chronicleria is a voxel-based HD texture pack for Allumeria by JJE. It goes for a calm, warm color palette with a higher level of detail than the default textures. This demo version already includes several assets, while other areas can currently be swapped with your own textures via the included res folder. More finished assets arrive with every update until the pack is complete."
+      },
+      "images": {
+        "logo": "",
+        "gallery": []
       },
       "links": {
         "download": "REPLACE_WITH_RELEASE_URL",
         "info": ""
       },
-      "tags": ["textur", "voxel", "hd"]
+      "tags": ["texture", "voxel", "hd"]
     }
   ]
 }

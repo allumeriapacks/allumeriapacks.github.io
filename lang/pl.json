@@ -1,8 +1,8 @@
 {
   "_meta": { "code": "pl", "label": "Polski", "flag": "🇵🇱" },
   "meta": {
-    "title": "allumeriapacks – Miejsce zbiorcze paczek językowych i teksturowych do Allumeria",
-    "description": "Nieoficjalne, fanowskie miejsce zbiorcze dla Allumeria: paczki językowe, teksturowe i inne od społeczności. Darmowe, przeszukiwalne i otwarte na zgłoszenia."
+    "title": "allumeriapacks – Miejsce zbiorcze paczek językowych, tekstur i modów do Allumeria",
+    "description": "Nieoficjalne, fanowskie miejsce zbiorcze dla Allumeria: paczki językowe, teksturowe, mody i inne od społeczności. Darmowe, przeszukiwalne i otwarte na zgłoszenia."
   },
   "banner": {
     "text": "<strong>Projekt fanowski i nieoficjalny</strong> — allumeriapacks nie jest powiązane z oficjalnymi twórcami Allumeria.",
@@ -18,7 +18,7 @@
   "hero": {
     "eyebrow": "Katalog społeczności",
     "title": "ALLUMERIA PACKS",
-    "subtitle": "Nieoficjalne miejsce zbiorcze paczek językowych i teksturowych do Allumeria — zebrane przez fanów, przeglądane przez fanów.",
+    "subtitle": "Nieoficjalne miejsce zbiorcze paczek językowych, teksturowych i modów do Allumeria — zebrane przez fanów, przeglądane przez fanów.",
     "cta_primary": "Przeglądaj paczki",
     "cta_secondary": "Zgłoś swoją paczkę"
   },
@@ -27,10 +27,17 @@
     "title": "Dostępne paczki",
     "subtitle": "Pliki są hostowane zewnętrznie — allumeriapacks jedynie do nich prowadzi. Dotyczy to również własnych projektów właściciela strony."
   },
+  "search": {
+    "placeholder": "Szukaj po nazwie, tagu lub twórcy…",
+    "clear": "Wyczyść wyszukiwanie",
+    "no_results_title": "Brak wyników",
+    "no_results_text": "Spróbuj innego hasła lub filtru."
+  },
   "filter": {
     "all": "Wszystkie",
     "language": "Paczki językowe",
     "texture": "Paczki tekstur",
+    "mod": "Mody",
     "other": "Inne"
   },
   "pack": {
@@ -38,9 +45,12 @@
     "official_badge": "Własny projekt tej strony",
     "download": "Pobierz",
     "info": "Więcej informacji",
+    "details_cta": "Dowiedz się więcej",
     "external_note": "Hostowane zewnętrznie",
+    "creator_label": "Zasoby od",
     "type_language": "Paczka językowa",
     "type_texture": "Paczka tekstur",
+    "type_mod": "Mod",
     "type_other": "Inne",
     "status_demo": "Demo / niekompletna",
     "status_wip": "W trakcie tworzenia",
@@ -51,13 +61,25 @@
     "title": "Brak paczek w tej kategorii",
     "text": "Zgłoś pierwszą paczkę w tej kategorii!"
   },
+  "detail": {
+    "back": "Powrót do katalogu",
+    "gallery_title": "Zrzuty ekranu",
+    "description_title": "Opis",
+    "meta_title": "Szczegóły",
+    "version_label": "Wersja",
+    "updated_label": "Aktualizacja",
+    "languages_label": "Język(i)",
+    "not_found_title": "Nie znaleziono paczki",
+    "not_found_text": "Ta paczka już nie istnieje lub została usunięta.",
+    "back_home": "Wróć do strony głównej"
+  },
   "install": {
     "eyebrow": "Jak to działa",
     "title": "Jak zainstalować paczkę",
     "step1_title": "Pobierz paczkę",
-    "step1_text": "Kliknij „Pobierz” — link prowadzi do oryginalnego źródła danej paczki.",
+    "step1_text": "Otwórz stronę produktu paczki i kliknij tam „Pobierz” — link prowadzi do oryginalnego źródła.",
     "step2_title": "Umieść w odpowiednim folderze",
-    "step2_text": "Większość paczek językowych i tekstur trafia do folderu <code>resourcepacks/</code> Twojej gry.",
+    "step2_text": "Większość paczek językowych i tekstur trafia do folderu <code>assetpacks</code> Twojej instalacji Allumeria — na Windows/Steam zwykle: <code>C:\\Program Files (x86)\\Steam\\steamapps\\common\\Allumeria Demo\\assetpacks</code>.",
     "step3_title": "Włącz w grze",
     "step3_text": "Otwórz ustawienia paczek zasobów i włącz ją. Gotowe — miłej zabawy!",
     "note": "Jeśli paczka zawiera własną instrukcję, zawsze stosuj się do niej zamiast tego skrótu."
@@ -65,17 +87,30 @@
   "submit": {
     "eyebrow": "Dołącz do nas",
     "title": "Zgłoś swoją paczkę",
-    "intro": "Stworzyłeś paczkę językową, teksturową lub inną dla Allumeria? Wypełnij dane poniżej — przycisk otworzy wstępnie wypełnione zgłoszenie (issue) na GitHubie do naszej weryfikacji i dodania do katalogu.",
+    "intro": "Stworzyłeś paczkę językową, teksturową, mod lub inną dla Allumeria? Wypełnij dane poniżej — przycisk otworzy wstępnie wypełnione zgłoszenie (issue) na GitHubie do naszej weryfikacji i dodania do katalogu.",
     "name_label": "Nazwa paczki",
     "name_placeholder": "np. Nordycka paczka tekstur",
     "type_label": "Typ paczki",
     "author_label": "Twoje imię / gamertag",
     "link_label": "Link do pobrania (hostowany zewnętrznie)",
     "link_placeholder": "https://…",
-    "description_label": "Krótki opis",
-    "description_placeholder": "Co wyróżnia Twoją paczkę?",
+    "description_short_label": "Krótki opis (maks. 160 znaków)",
+    "description_short_placeholder": "Jedno zdanie, widoczne na karcie w katalogu.",
+    "description_long_label": "Pełny opis (maks. 1000 znaków)",
+    "description_long_placeholder": "Co wyróżnia Twoją paczkę? Widoczne na stronie produktu.",
     "language_label": "Język(i) (dla paczek językowych)",
     "language_placeholder": "np. francuski",
+    "tags_label": "Tagi (angielski, oddzielone przecinkami)",
+    "tags_placeholder": "np. texture, voxel, hd",
+    "tags_hint": "Tagi zawsze pozostają w języku angielskim — stała taksonomia dla całego katalogu.",
+    "creator_label": "Twórca oryginalnych zasobów (jeśli inny niż Ty)",
+    "creator_placeholder": "Opcjonalnie",
+    "creator_link_label": "Link do twórcy zasobów",
+    "creator_link_placeholder": "https:// (opcjonalnie)",
+    "image_logo_label": "Logo / miniatura (URL obrazu)",
+    "image_logo_placeholder": "https://…png / .jpg",
+    "image_logo_hint": "Tylko bezpośredni link do obrazu — bez przesyłania plików, dzięki czemu nie da się przemycić plików wykonywalnych.",
+    "image_gallery_label": "Dodatkowe zrzuty ekranu (opcjonalnie, do 3 linków)",
     "license_label": "Potwierdzam, że posiadam prawa do tej treści lub jestem upoważniony do jej publikacji i że nie narusza ona obowiązującego prawa.",
     "submit_btn": "Otwórz zgłoszenie na GitHubie",
     "note": "Otworzy się nowa karta z wstępnie wypełnionym zgłoszeniem na GitHubie. Konto GitHub jest potrzebne tylko do wysłania, nie do wypełnienia formularza.",

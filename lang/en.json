@@ -1,8 +1,8 @@
 {
   "_meta": { "code": "en", "label": "English", "flag": "🇬🇧" },
   "meta": {
-    "title": "allumeriapacks – Community hub for Allumeria language & texture packs",
-    "description": "Unofficial, fanmade hub for Allumeria: language packs, texture packs & more from the community. Free, browsable, and open to submissions."
+    "title": "allumeriapacks – Community hub for Allumeria language, texture & mod packs",
+    "description": "Unofficial, fanmade hub for Allumeria: language packs, texture packs, mods & more from the community. Free, browsable, and open to submissions."
   },
   "banner": {
     "text": "<strong>Fanmade &amp; unofficial</strong> — allumeriapacks is not affiliated with the official Allumeria developers.",
@@ -18,7 +18,7 @@
   "hero": {
     "eyebrow": "Community catalog",
     "title": "ALLUMERIA PACKS",
-    "subtitle": "The unofficial hub for Allumeria language and texture packs — collected by fans, browsable for fans.",
+    "subtitle": "The unofficial hub for Allumeria language, texture, and mod packs — collected by fans, browsable for fans.",
     "cta_primary": "Browse packs",
     "cta_secondary": "Submit your pack"
   },
@@ -27,10 +27,17 @@
     "title": "Available packs",
     "subtitle": "Downloads are hosted externally — allumeriapacks only links out. Same goes for the site owner's own projects."
   },
+  "search": {
+    "placeholder": "Search by name, tag, or creator…",
+    "clear": "Clear search",
+    "no_results_title": "No matches",
+    "no_results_text": "Try a different search term or filter."
+  },
   "filter": {
     "all": "All",
     "language": "Language packs",
     "texture": "Texture packs",
+    "mod": "Mods",
     "other": "Other"
   },
   "pack": {
@@ -38,9 +45,12 @@
     "official_badge": "This site's own project",
     "download": "Get download",
     "info": "More info",
+    "details_cta": "Learn more",
     "external_note": "Hosted externally",
+    "creator_label": "Assets by",
     "type_language": "Language pack",
     "type_texture": "Texture pack",
+    "type_mod": "Mod",
     "type_other": "Other",
     "status_demo": "Demo / incomplete",
     "status_wip": "Work in progress",
@@ -51,13 +61,25 @@
     "title": "No packs in this category yet",
     "text": "Be the first to submit one!"
   },
+  "detail": {
+    "back": "Back to catalog",
+    "gallery_title": "Screenshots",
+    "description_title": "Description",
+    "meta_title": "Details",
+    "version_label": "Version",
+    "updated_label": "Updated",
+    "languages_label": "Language(s)",
+    "not_found_title": "Pack not found",
+    "not_found_text": "This pack doesn't exist (anymore) or was removed.",
+    "back_home": "Back to homepage"
+  },
   "install": {
     "eyebrow": "How it works",
     "title": "How to install a pack",
     "step1_title": "Download the pack",
-    "step1_text": "Click \"Get download\" — the link takes you to that pack's original source.",
+    "step1_text": "Open the pack's product page and click \"Get download\" there — the link takes you to the original source.",
     "step2_title": "Move it to the right folder",
-    "step2_text": "Most language and texture packs belong in your game's <code>resourcepacks/</code> folder.",
+    "step2_text": "Most language and texture packs go into the <code>assetpacks</code> folder of your Allumeria install — on Windows/Steam usually: <code>C:\\Program Files (x86)\\Steam\\steamapps\\common\\Allumeria Demo\\assetpacks</code>.",
     "step3_title": "Enable it in-game",
     "step3_text": "Open the resource pack settings and enable it. Done — enjoy exploring!",
     "note": "If a pack comes with its own instructions, always follow those instead of this quick guide."
@@ -65,17 +87,30 @@
   "submit": {
     "eyebrow": "Get involved",
     "title": "Submit your pack",
-    "intro": "Made a language, texture, or other pack for Allumeria? Fill in the details below — the button opens a pre-filled GitHub issue for us to review and add to the catalog.",
+    "intro": "Made a language, texture, mod, or other pack for Allumeria? Fill in the details below — the button opens a pre-filled GitHub issue for us to review and add to the catalog.",
     "name_label": "Pack name",
     "name_placeholder": "e.g. Nordic Texture Pack",
     "type_label": "Pack type",
     "author_label": "Your name / gamertag",
     "link_label": "Download link (externally hosted)",
     "link_placeholder": "https://…",
-    "description_label": "Short description",
-    "description_placeholder": "What makes your pack special?",
+    "description_short_label": "Short description (max. 160 characters)",
+    "description_short_placeholder": "One sentence, shown on the catalog card.",
+    "description_long_label": "Full description (max. 1000 characters)",
+    "description_long_placeholder": "What makes your pack special? Shown on the product page.",
     "language_label": "Language(s) (for language packs)",
     "language_placeholder": "e.g. French",
+    "tags_label": "Tags (English, comma-separated)",
+    "tags_placeholder": "e.g. texture, voxel, hd",
+    "tags_hint": "Tags always stay in English — a fixed taxonomy shared across the whole catalog.",
+    "creator_label": "Original asset creator (if different from you)",
+    "creator_placeholder": "Optional",
+    "creator_link_label": "Link to the asset creator",
+    "creator_link_placeholder": "https:// (optional)",
+    "image_logo_label": "Logo / thumbnail (image URL)",
+    "image_logo_placeholder": "https://…png / .jpg",
+    "image_logo_hint": "Only a direct link to an image — no file upload, so no executable files can be smuggled in.",
+    "image_gallery_label": "More screenshots (optional, up to 3 links)",
     "license_label": "I confirm I own the rights to this content or am authorized to publish it, and that it doesn't violate any applicable law.",
     "submit_btn": "Open issue on GitHub",
     "note": "This opens a new tab with a pre-filled GitHub issue. A GitHub account is only needed to submit it — not to fill out the form.",

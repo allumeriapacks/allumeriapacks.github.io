@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Pack einreichen – allumeriapacks</title>
-<meta name="description" content="Reiche dein eigenes Sprach-, Textur- oder anderes Paket für Allumeria bei allumeriapacks ein — kostenlos und offen für die Community.">
+<meta name="description" content="Reiche dein eigenes Sprach-, Textur-, Mod- oder anderes Paket für Allumeria bei allumeriapacks ein — kostenlos und offen für die Community.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://allumeriapacks.github.io/submit.html">
 <meta name="theme-color" content="#2a1a0e">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="allumeriapacks">
 <meta property="og:title" content="Pack einreichen – allumeriapacks">
-<meta property="og:description" content="Reiche dein eigenes Sprach-, Textur- oder anderes Paket für Allumeria bei allumeriapacks ein.">
+<meta property="og:description" content="Reiche dein eigenes Sprach-, Textur-, Mod- oder anderes Paket für Allumeria bei allumeriapacks ein.">
 <meta property="og:url" content="https://allumeriapacks.github.io/submit.html">
 <meta property="og:image" content="https://allumeriapacks.github.io/assets/img/og-image.png">
 
@@ -65,7 +65,7 @@
     <span class="eyebrow" data-i18n="submit.eyebrow">Mitmachen</span>
     <h2 data-i18n="submit.title">Eigenes Pack einreichen</h2>
     <p class="hero__subtitle" data-i18n="submit.intro" style="margin-top:10px;">
-      Du hast ein Sprach-, Textur- oder anderes Paket für Allumeria erstellt? Trag es unten ein — der Button öffnet ein vorausgefülltes GitHub-Issue.
+      Du hast ein Sprach-, Textur-, Mod- oder anderes Paket für Allumeria erstellt? Trag es unten ein — der Button öffnet ein vorausgefülltes GitHub-Issue.
     </p>
   </div>
 
@@ -80,6 +80,7 @@
       <select id="pack-type" name="pack-type" required>
         <option value="language" data-i18n="pack.type_language">Sprachpaket</option>
         <option value="texture" data-i18n="pack.type_texture">Texturepaket</option>
+        <option value="mod" data-i18n="pack.type_mod">Mod</option>
         <option value="other" data-i18n="pack.type_other">Sonstiges</option>
       </select>
     </div>
@@ -95,13 +96,51 @@
     </div>
 
     <div class="form-field">
-      <label for="description" data-i18n="submit.description_label">Kurzbeschreibung</label>
-      <textarea id="description" name="description" required data-i18n-placeholder="submit.description_placeholder" placeholder="Was macht dein Pack besonders?"></textarea>
+      <label for="description-short" data-i18n="submit.description_short_label">Kurzbeschreibung (max. 160 Zeichen)</label>
+      <textarea id="description-short" name="description-short" maxlength="160" required data-i18n-placeholder="submit.description_short_placeholder" placeholder="Ein Satz, der auf der Katalog-Karte erscheint." style="min-height:60px;"></textarea>
+      <span class="form-field__counter" id="description-short-counter">0 / 160</span>
+    </div>
+
+    <div class="form-field">
+      <label for="description-long" data-i18n="submit.description_long_label">Ausführliche Beschreibung (max. 1000 Zeichen)</label>
+      <textarea id="description-long" name="description-long" maxlength="1000" required data-i18n-placeholder="submit.description_long_placeholder" placeholder="Was macht dein Pack besonders? Erscheint auf der Produktseite." style="min-height:140px;"></textarea>
+      <span class="form-field__counter" id="description-long-counter">0 / 1000</span>
     </div>
 
     <div class="form-field">
       <label for="languages" data-i18n="submit.language_label">Sprache(n) (bei Sprachpaketen)</label>
       <input type="text" id="languages" name="languages" data-i18n-placeholder="submit.language_placeholder" placeholder="z. B. Französisch">
+    </div>
+
+    <div class="form-field">
+      <label for="tags" data-i18n="submit.tags_label">Tags (Englisch, mit Komma getrennt)</label>
+      <input type="text" id="tags" name="tags" required data-i18n-placeholder="submit.tags_placeholder" placeholder="z. B. texture, voxel, hd">
+      <p class="form-field__hint" data-i18n="submit.tags_hint">Tags bleiben immer auf Englisch — feste Taxonomie für den ganzen Katalog.</p>
+    </div>
+
+    <div class="form-field">
+      <label for="creator" data-i18n="submit.creator_label">Ersteller der Assets (falls abweichend von dir)</label>
+      <input type="text" id="creator" name="creator" data-i18n-placeholder="submit.creator_placeholder" placeholder="Optional">
+    </div>
+
+    <div class="form-field">
+      <label for="creator-link" data-i18n="submit.creator_link_label">Link zum Asset-Ersteller</label>
+      <input type="url" id="creator-link" name="creator-link" data-i18n-placeholder="submit.creator_link_placeholder" placeholder="https:// (optional)">
+    </div>
+
+    <div class="form-field">
+      <label for="image-logo" data-i18n="submit.image_logo_label">Logo / Vorschaubild (Bild-URL)</label>
+      <input type="url" id="image-logo" name="image-logo" data-i18n-placeholder="submit.image_logo_placeholder" placeholder="https://…png / .jpg">
+      <p class="form-field__hint" data-i18n="submit.image_logo_hint">Nur ein direkter Link zu einem Bild — kein Datei-Upload, damit keine ausführbaren Dateien eingeschleust werden können.</p>
+    </div>
+
+    <div class="form-field">
+      <label for="image-gallery-1" data-i18n="submit.image_gallery_label">Weitere Bilder (optional, bis zu 3 Links)</label>
+      <div class="form-field__group">
+        <input type="url" id="image-gallery-1" name="image-gallery-1" placeholder="https://…jpg">
+        <input type="url" id="image-gallery-2" name="image-gallery-2" placeholder="https://…jpg">
+        <input type="url" id="image-gallery-3" name="image-gallery-3" placeholder="https://…jpg">
+      </div>
     </div>
 
     <div class="form-field form-field--checkbox">
@@ -128,7 +167,6 @@
   <p class="site-footer__tagline" data-i18n="footer.tagline">Made by Fans, for Fans.</p>
   <div class="site-footer__socials">
     <a href="https://github.com/JJETHEGAMER" target="_blank" rel="noopener">JJETHEGAMER</a>
-    <a href="https://instagram.com/justin_jje" target="_blank" rel="noopener">justin_jje</a>
     <a href="https://github.com/allumeriapacks/allumeriapacks.github.io" target="_blank" rel="noopener">GitHub</a>
   </div>
   <p class="site-footer__disclaimer" data-i18n="footer.disclaimer">

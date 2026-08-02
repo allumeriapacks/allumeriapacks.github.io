@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- ============================= SEO ============================= -->
-<title>allumeriapacks – Sammelstelle für Sprach- & Texturepakete zu Allumeria</title>
-<meta name="description" content="Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete & mehr von der Community. Kostenlos, durchsuchbar und offen für eigene Einreichungen.">
-<meta name="keywords" content="Allumeria, Allumeria Packs, allumeriapacks, Chronicleria, Sprachpaket, Texturepaket, Resourcepack, JJETHEGAMER, Fanmade, inoffiziell">
+<title>allumeriapacks – Sammelstelle für Sprach-, Textur- & Mod-Pakete zu Allumeria</title>
+<meta name="description" content="Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete, Mods & mehr von der Community. Kostenlos, durchsuchbar und offen für eigene Einreichungen.">
+<meta name="keywords" content="Allumeria, Allumeria Packs, allumeriapacks, Chronicleria, Sprachpaket, Texturepaket, Mod, Resourcepack, JJETHEGAMER, Fanmade, inoffiziell">
 <meta name="author" content="JJETHEGAMER">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://allumeriapacks.github.io/">
@@ -16,8 +16,8 @@
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="allumeriapacks">
-<meta property="og:title" content="allumeriapacks – Sammelstelle für Sprach- & Texturepakete zu Allumeria">
-<meta property="og:description" content="Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete & mehr von der Community.">
+<meta property="og:title" content="allumeriapacks – Sammelstelle für Sprach-, Textur- & Mod-Pakete zu Allumeria">
+<meta property="og:description" content="Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete, Mods & mehr von der Community.">
 <meta property="og:url" content="https://allumeriapacks.github.io/">
 <meta property="og:image" content="https://allumeriapacks.github.io/assets/img/og-image.png">
 <meta property="og:locale" content="de_DE">
@@ -28,8 +28,8 @@
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="allumeriapacks – Sammelstelle für Sprach- & Texturepakete zu Allumeria">
-<meta name="twitter:description" content="Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete & mehr von der Community.">
+<meta name="twitter:title" content="allumeriapacks – Sammelstelle für Sprach-, Textur- & Mod-Pakete zu Allumeria">
+<meta name="twitter:description" content="Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete, Mods & mehr von der Community.">
 <meta name="twitter:image" content="https://allumeriapacks.github.io/assets/img/og-image.png">
 
 <!-- Icons -->
@@ -52,7 +52,7 @@
   "@type": "WebSite",
   "name": "allumeriapacks",
   "url": "https://allumeriapacks.github.io/",
-  "description": "Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete & mehr von der Community.",
+  "description": "Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete, Mods & mehr von der Community.",
   "inLanguage": ["de", "en", "pl", "ru", "uk"],
   "publisher": {
     "@type": "Person",
@@ -68,7 +68,7 @@
 <div class="disclaimer-banner" id="disclaimer-banner">
   <div class="disclaimer-banner__inner">
     <span data-i18n-html="banner.text"></span>
-    <button class="dismiss" type="button" aria-label="Banner schließen" data-i18n-aria="banner.dismiss">&times;</button>
+    <button class="dismiss" type="button" data-i18n-aria="banner.dismiss">&times;</button>
   </div>
 </div>
 
@@ -106,7 +106,7 @@
     <span class="eyebrow" data-i18n="hero.eyebrow">Community-Katalog</span>
     <h1 data-i18n="hero.title">ALLUMERIA PACKS</h1>
     <p class="hero__subtitle" data-i18n="hero.subtitle">
-      Die inoffizielle Sammelstelle für Sprach- und Texturepakete zu Allumeria — von Fans zusammengetragen, für Fans durchsuchbar.
+      Die inoffizielle Sammelstelle für Sprach-, Textur- und Mod-Pakete zu Allumeria — von Fans zusammengetragen, für Fans durchsuchbar.
     </p>
     <div class="hero__actions">
       <a class="btn btn--primary" href="#catalog" data-i18n="hero.cta_primary">Packs durchsuchen</a>
@@ -125,10 +125,17 @@
     </p>
   </div>
 
+  <div class="search-bar">
+    <label class="visually-hidden" for="pack-search" data-i18n="search.placeholder">Suche nach Name, Tag oder Ersteller…</label>
+    <input type="search" id="pack-search" data-i18n-placeholder="search.placeholder" placeholder="Suche nach Name, Tag oder Ersteller…" autocomplete="off">
+    <button type="button" class="search-bar__clear" id="search-clear" data-i18n-aria="search.clear" aria-label="Suche zurücksetzen">&times;</button>
+  </div>
+
   <div class="filter-bar" id="filter-bar" role="group" aria-label="Nach Typ filtern">
     <button class="filter-chip" data-filter="all" aria-pressed="true" data-i18n="filter.all">Alle</button>
     <button class="filter-chip" data-filter="language" aria-pressed="false" data-i18n="filter.language">Sprachpakete</button>
     <button class="filter-chip" data-filter="texture" aria-pressed="false" data-i18n="filter.texture">Texturepakete</button>
+    <button class="filter-chip" data-filter="mod" aria-pressed="false" data-i18n="filter.mod">Mods</button>
     <button class="filter-chip" data-filter="other" aria-pressed="false" data-i18n="filter.other">Sonstiges</button>
   </div>
 
@@ -136,7 +143,7 @@
 
   <div class="empty-state" id="pack-empty" hidden>
     <h3>Noch keine Packs in dieser Kategorie</h3>
-    <p>Sei die erste Person, die hier ein Pack einreicht!</p>
+    <p class="empty-text">Sei die erste Person, die hier ein Pack einreicht!</p>
     <p style="margin-top:18px;"><a class="btn btn--primary btn--sm" href="submit.html" data-i18n="hero.cta_secondary">Eigenes Pack einreichen</a></p>
   </div>
 </section>
@@ -151,12 +158,12 @@
     <div class="install-step">
       <span class="install-step__num">01</span>
       <h3 data-i18n="install.step1_title">Pack herunterladen</h3>
-      <p data-i18n="install.step1_text">Klick auf „Zum Download“ — der Link führt zur Originalquelle des jeweiligen Packs.</p>
+      <p data-i18n="install.step1_text">Öffne die Produktseite des Packs und klick dort auf „Zum Download“ — der Link führt zur Originalquelle.</p>
     </div>
     <div class="install-step">
       <span class="install-step__num">02</span>
       <h3 data-i18n="install.step2_title">In den richtigen Ordner legen</h3>
-      <p data-i18n-html="install.step2_text">Die meisten Sprach- und Texturepakete gehören in den <code>resourcepacks/</code>-Ordner deines Spiels.</p>
+      <p data-i18n-html="install.step2_text">Die meisten Sprach- und Texturepakete gehören in den Ordner <code>assetpacks</code> deiner Allumeria-Installation — unter Windows/Steam meist: <code>C:\Program Files (x86)\Steam\steamapps\common\Allumeria Demo\assetpacks</code>.</p>
     </div>
     <div class="install-step">
       <span class="install-step__num">03</span>

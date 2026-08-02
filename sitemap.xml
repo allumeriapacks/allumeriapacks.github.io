@@ -10,4 +10,5 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <!-- pack.html?id=... Produktseiten sind dynamisch (Query-Parameter) und werden hier bewusst nicht einzeln gelistet -->
 </urlset>

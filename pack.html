@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Pack – allumeriapacks</title>
+<meta name="description" content="Details zu einem Sprach-, Textur- oder Mod-Paket für Allumeria auf allumeriapacks.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2a1a0e">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="allumeriapacks">
+<meta property="og:image" content="https://allumeriapacks.github.io/assets/img/og-image.png">
+
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/favicon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@400;600;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="disclaimer-banner" id="disclaimer-banner">
+  <div class="disclaimer-banner__inner">
+    <span data-i18n-html="banner.text"></span>
+    <button class="dismiss" type="button" data-i18n-aria="banner.dismiss">&times;</button>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="brand" href="index.html">
+      <img class="brand__flame" src="assets/img/favicon.png" alt="" width="34" height="34">
+      <span>ALLUMERIA<br><small>PACKS</small></span>
+    </a>
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menü öffnen">☰</button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="index.html#catalog" data-i18n="nav.catalog">Packs</a></li>
+      <li><a href="submit.html" data-i18n="nav.submit">Pack einreichen</a></li>
+      <li><a href="index.html#community" data-i18n="nav.community">Community</a></li>
+      <li><a href="https://github.com/allumeriapacks/allumeriapacks.github.io" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a></li>
+    </ul>
+    <div class="nav__actions">
+      <div class="lang-switch" id="lang-switch">
+        <button class="lang-switch__btn" id="lang-current" type="button" aria-haspopup="true">DE</button>
+        <div class="lang-switch__menu" id="lang-menu" role="menu"></div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section style="padding-top:48px;">
+  <div id="detail-root" style="max-width:1180px; margin:0 auto; padding:0 24px;">
+    <!-- rendered dynamically by assets/js/main.js -->
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="site-footer__brand">ALLUMERIA PACKS</div>
+  <p class="site-footer__tagline" data-i18n="footer.tagline">Made by Fans, for Fans.</p>
+  <div class="site-footer__socials">
+    <a href="https://github.com/JJETHEGAMER" target="_blank" rel="noopener">JJETHEGAMER</a>
+    <a href="https://github.com/allumeriapacks/allumeriapacks.github.io" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <p class="site-footer__disclaimer" data-i18n="footer.disclaimer">
+    allumeriapacks ist ein fanmade, inoffizielles Projekt und steht in keiner Verbindung zu den offiziellen Allumeria-Entwicklern oder -Rechteinhabern.
+  </p>
+  <p class="site-footer__rights">© <span id="footer-year">2026</span> allumeriapacks</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

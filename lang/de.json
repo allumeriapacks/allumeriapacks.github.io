@@ -1,8 +1,8 @@
 {
   "_meta": { "code": "de", "label": "Deutsch", "flag": "🇩🇪" },
   "meta": {
-    "title": "allumeriapacks – Sammelstelle für Sprach- & Texturepakete zu Allumeria",
-    "description": "Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete & mehr von der Community. Kostenlos, durchsuchbar und offen für eigene Einreichungen."
+    "title": "allumeriapacks – Sammelstelle für Sprach-, Textur- & Mod-Pakete zu Allumeria",
+    "description": "Inoffizielle, fanmade Sammelstelle für Allumeria: Sprachpakete, Texturepakete, Mods & mehr von der Community. Kostenlos, durchsuchbar und offen für eigene Einreichungen."
   },
   "banner": {
     "text": "<strong>Fanmade &amp; inoffiziell</strong> — allumeriapacks steht in keiner Verbindung zu den offiziellen Allumeria-Entwicklern.",
@@ -18,7 +18,7 @@
   "hero": {
     "eyebrow": "Community-Katalog",
     "title": "ALLUMERIA PACKS",
-    "subtitle": "Die inoffizielle Sammelstelle für Sprach- und Texturepakete zu Allumeria — von Fans zusammengetragen, für Fans durchsuchbar.",
+    "subtitle": "Die inoffizielle Sammelstelle für Sprach-, Textur- und Mod-Pakete zu Allumeria — von Fans zusammengetragen, für Fans durchsuchbar.",
     "cta_primary": "Packs durchsuchen",
     "cta_secondary": "Eigenes Pack einreichen"
   },
@@ -27,10 +27,17 @@
     "title": "Verfügbare Packs",
     "subtitle": "Downloads werden extern gehostet — allumeriapacks verlinkt nur dorthin. Ausnahme: eigene Projekte des Seitenbetreibers, ebenfalls extern verlinkt."
   },
+  "search": {
+    "placeholder": "Suche nach Name, Tag oder Ersteller…",
+    "clear": "Suche zurücksetzen",
+    "no_results_title": "Keine Treffer",
+    "no_results_text": "Versuch einen anderen Suchbegriff oder Filter."
+  },
   "filter": {
     "all": "Alle",
     "language": "Sprachpakete",
     "texture": "Texturepakete",
+    "mod": "Mods",
     "other": "Sonstiges"
   },
   "pack": {
@@ -38,9 +45,12 @@
     "official_badge": "Eigenes Projekt dieser Seite",
     "download": "Zum Download",
     "info": "Mehr Infos",
+    "details_cta": "Mehr erfahren",
     "external_note": "Wird extern gehostet",
+    "creator_label": "Assets von",
     "type_language": "Sprachpaket",
     "type_texture": "Texturepaket",
+    "type_mod": "Mod",
     "type_other": "Sonstiges",
     "status_demo": "Demo / unvollständig",
     "status_wip": "In Arbeit",
@@ -51,13 +61,25 @@
     "title": "Noch keine Packs in dieser Kategorie",
     "text": "Sei die erste Person, die hier ein Pack einreicht!"
   },
+  "detail": {
+    "back": "Zurück zum Katalog",
+    "gallery_title": "Bilder",
+    "description_title": "Beschreibung",
+    "meta_title": "Details",
+    "version_label": "Version",
+    "updated_label": "Aktualisiert",
+    "languages_label": "Sprache(n)",
+    "not_found_title": "Pack nicht gefunden",
+    "not_found_text": "Dieses Pack existiert nicht (mehr) oder wurde entfernt.",
+    "back_home": "Zur Startseite"
+  },
   "install": {
     "eyebrow": "So geht's",
     "title": "So installierst du ein Paket",
     "step1_title": "Pack herunterladen",
-    "step1_text": "Klick auf „Zum Download“ — der Link führt zur Originalquelle des jeweiligen Packs.",
+    "step1_text": "Öffne die Produktseite des Packs und klick dort auf „Zum Download“ — der Link führt zur Originalquelle.",
     "step2_title": "In den richtigen Ordner legen",
-    "step2_text": "Die meisten Sprach- und Texturepakete gehören in den <code>resourcepacks/</code>-Ordner deines Spiels.",
+    "step2_text": "Die meisten Sprach- und Texturepakete gehören in den <code>resourcepacks/</code>-Ordner deines Spiels, Mods in den <code>mods/</code>-Ordner.",
     "step3_title": "Im Spiel aktivieren",
     "step3_text": "Öffne die Paket-Einstellungen und aktiviere das Pack. Fertig — viel Spaß beim Erkunden!",
     "note": "Bringt ein Pack eine eigene Anleitung mit? Diese hat immer Vorrang vor der Kurzanleitung hier."
@@ -65,17 +87,30 @@
   "submit": {
     "eyebrow": "Mitmachen",
     "title": "Eigenes Pack einreichen",
-    "intro": "Du hast ein Sprach-, Textur- oder anderes Paket für Allumeria erstellt? Trag es unten ein — der Button öffnet ein vorausgefülltes GitHub-Issue, das wir prüfen und danach in den Katalog aufnehmen.",
+    "intro": "Du hast ein Sprach-, Textur-, Mod- oder anderes Paket für Allumeria erstellt? Trag es unten ein — der Button öffnet ein vorausgefülltes GitHub-Issue, das wir prüfen und danach in den Katalog aufnehmen.",
     "name_label": "Name des Packs",
     "name_placeholder": "z. B. Nordisches Texturepaket",
     "type_label": "Art des Packs",
     "author_label": "Dein Name / Gamertag",
     "link_label": "Link zum Download (extern gehostet)",
     "link_placeholder": "https://…",
-    "description_label": "Kurzbeschreibung",
-    "description_placeholder": "Was macht dein Pack besonders?",
+    "description_short_label": "Kurzbeschreibung (max. 160 Zeichen)",
+    "description_short_placeholder": "Ein Satz, der auf der Katalog-Karte erscheint.",
+    "description_long_label": "Ausführliche Beschreibung (max. 1000 Zeichen)",
+    "description_long_placeholder": "Was macht dein Pack besonders? Erscheint auf der Produktseite.",
     "language_label": "Sprache(n) (bei Sprachpaketen)",
     "language_placeholder": "z. B. Französisch",
+    "tags_label": "Tags (Englisch, mit Komma getrennt)",
+    "tags_placeholder": "z. B. texture, voxel, hd",
+    "tags_hint": "Tags bleiben immer auf Englisch — feste Taxonomie für den ganzen Katalog.",
+    "creator_label": "Ersteller der Assets (falls abweichend von dir)",
+    "creator_placeholder": "Optional",
+    "creator_link_label": "Link zum Asset-Ersteller",
+    "creator_link_placeholder": "https:// (optional)",
+    "image_logo_label": "Logo / Vorschaubild (Bild-URL)",
+    "image_logo_placeholder": "https://…png / .jpg",
+    "image_logo_hint": "Nur ein direkter Link zu einem Bild — kein Datei-Upload, damit keine ausführbaren Dateien eingeschleust werden können.",
+    "image_gallery_label": "Weitere Bilder (optional, bis zu 3 Links)",
     "license_label": "Ich bestätige, dass ich die Rechte an diesem Inhalt besitze oder zur Veröffentlichung berechtigt bin und dass er nicht gegen geltendes Recht verstößt.",
     "submit_btn": "Issue auf GitHub öffnen",
     "note": "Es öffnet sich ein neuer Tab mit einem vorausgefüllten GitHub-Issue. Ein GitHub-Account wird nur zum Absenden benötigt — nicht zum Ausfüllen.",
